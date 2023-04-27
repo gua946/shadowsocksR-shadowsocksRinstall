@@ -4,7 +4,7 @@ export PATH
 #=================================================================#
 #   System Required:  CentOS 6,7, Debian, Ubuntu                  #
 #   Description: One click Install ShadowsocksR Server            #
-#   Author: Teddysun <i@2834327~!>                             #
+#   Author: Teddysun <i@Rtg2834327~!>                             #
 #   Thanks: @breakwa11 <https://twitter.com/breakwa11>            #
 #   Intro:  https://shadowsocks.be/9.html                         #
 #=================================================================#
@@ -14,7 +14,7 @@ echo
 echo "#############################################################"
 echo "# One click Install ShadowsocksR Server                     #"
 echo "# Intro: https://shadowsocks.be/9.html                      #"
-echo "# Author: Teddysun <i@2834327~!>                         #"
+echo "# Author: Teddysun <i@Rtg2834327~!>                         #"
 echo "# Github: https://github.com/shadowsocksr/shadowsocksr      #"
 echo "#############################################################"
 echo
@@ -195,8 +195,8 @@ pre_install(){
     fi
     # Set ShadowsocksR config password
     echo "Please enter password for ShadowsocksR:"
-    read -p "(Default password: 2834327~!):" shadowsockspwd
-    [ -z "${shadowsockspwd}" ] && shadowsockspwd="2834327~!"
+    read -p "(Default password: Rtg2834327~!):" shadowsockspwd
+    [ -z "${shadowsockspwd}" ] && shadowsockspwd="Rtg2834327~!"
     echo
     echo "---------------------------"
     echo "password = ${shadowsockspwd}"
@@ -446,7 +446,7 @@ install(){
         echo "Enjoy it!"
         echo
     else
-        echo "ShadowsocksR install failed, please Email to Teddysun <i@2834327~!> and contact"
+        echo "ShadowsocksR install failed, please Email to Teddysun <i@Rtg2834327~!> and contact"
         install_cleanup
         exit 1
     fi
